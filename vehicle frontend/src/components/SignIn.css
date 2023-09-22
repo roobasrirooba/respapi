@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+  
+ 
+  .SignIn-body {
+    width: 100%;
+    min-height: 100vh;
+    background: url('https://i.pinimg.com/originals/f3/2f/f9/f32ff9f0333576e0f921dc66fcea934f.gif') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  
+  .SignIn-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px 20px;
+    color: white;
+    animation: SignIn-header 2s ease-in-out;
+  }
+  
+  @keyframes SignIn-header {
+    0% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  
+  .SignIn-nav li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+  }
+  
+  /* Main content styles */
+  .main {
+    width: 100%;
+    display: flex;
+  }
+  
+  .SignIn-content {
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: white;
+    overflow: hidden;
+    animation: SignIn-content 2s ease-in-out;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+  @keyframes SignIn-content {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+  }
+  
+  .SignIn-content h1 {
+    font-size: 80px;
+    margin-bottom: 1%;
+    letter-spacing: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: end; 
+  }
+  
+  .SignIn-content h3 {
+    font-size: 15px;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+  }
+  
+  .SignIn-span {
+    color: rgb(236, 46, 46);
+  }
+  
+  .SignIn-content p {
+    font-size: 20px;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left; 
+  }
+  
+  
+  .SignIn-button {
+    padding: 15px 30px;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+  
+  .SignIn-button:hover {
+    background: rgb(243, 74, 74);
+  }
+  
+  
+  .icon-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px; 
+    
+  }
+  
+  
+  .icon-container .icon-image {
+    max-width: 100px; 
+    height: auto; 
+    margin: 40px; 
+   
+  }
